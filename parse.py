@@ -32,6 +32,7 @@ def sql_prep():
         "preview",
         "type"
     ]
+    
     mul_asset_detail_lst = []
     for json_query in range(len(included_terms)):
         asset_det = []
